@@ -1,0 +1,48 @@
+.mainBoxes{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    .movieBox{
+        width: 83%;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        .moveBox{
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+            box-shadow: 5px 5px 5px #ccc;
+            img{
+                width: 250px;
+                height: 300px;
+            }
+        } 
+    }
+    .searchBox{
+        text-align: center;
+        padding-top: 10px;
+        border: 2px solid #ccc;
+        width: 15%;
+        input{
+            width: 190px;
+            height: 25px;
+            margin-bottom: 40px;
+
+        }
+        button{
+            width: 195px;
+            height: 30px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            background-color: #DCDCDC;
+            border-radius: 7px;
+            border: none;
+            &:hover{
+                background-color: #FFF8DC;
+            }
+        }
+    }
+}
+

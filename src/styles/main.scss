@@ -1,0 +1,23 @@
+.mainBox{
+    margin: 20px;
+    .linkBox{
+        background-color: #808080;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        .link{
+            background-color: #DCDCDC;
+            width: 100px;
+            height: 25px;
+            border-radius: 50px;
+            padding-top: 5px;
+            text-decoration: none;
+            color: #000;
+            &:hover{
+                background-color: #FFF8DC;
+            }
+        }
+    }
+}

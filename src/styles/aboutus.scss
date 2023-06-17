@@ -1,0 +1,23 @@
+.aboutBox{
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DCDCDC;
+    .textBox{
+        width: 40%;
+        background-color: #FFF8DC;
+        margin: 20px;
+        border-radius: 15px;
+        p{
+            margin-left: 15px;
+        }
+    }
+    .picBox{
+        margin: 20px;
+        img{
+            border-radius: 50%;    
+        }
+    }
+}
